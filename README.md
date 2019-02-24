@@ -7,4 +7,4 @@ Le but de l'application est de cocher les invités présents et d'avoir les comp
 
 Possibilité d'éditer les évènements, les informations des invités et d'avoir des statistiques des différents évènements.
 
-L'application est connectée via une base de donnée **MySQL**.
+L'application est connectée via une base de donnée **MySQL** et le design réalisé avec la librairie **Bootstrap**.
