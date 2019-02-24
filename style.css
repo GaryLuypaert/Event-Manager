@@ -1,0 +1,263 @@
+html, body {
+  height: 100%;
+}
+
+body {
+    margin: 0;
+    padding: 0;
+    background-color: #FFF;
+    color: #EAECEE;
+    display: flex;
+    flex-direction: column;
+}
+
+.container-main {
+   flex: 1 0 auto;
+}
+
+.navbar {
+    background-color: #006494;
+    border-bottom: 1px solid #727272;
+    color: #FFF;
+    height: 80px;
+}
+
+.navbar-middle {
+    /* margin-top: 15px; */
+    float: left;
+    font-size: 20px;
+}
+
+.navbar-right {
+    /* margin-top: 15px; */
+    /* margin-right: 15px; */
+    float:right;
+    font-size: 20px;
+    padding-top: 10px;
+}
+
+
+ul > li {
+    list-style: none;
+    /* display: inline-block; */
+}
+
+#compteurIN {
+    color: #229954;
+}
+
+#compteurOUT {
+    color: #E74C3C;
+}
+
+#main-center {
+    background-color: #F2F2F2;
+    /* border-left: 1px solid #5D6D7E;
+    border-right: 1px solid #5D6D7E; */
+    margin-top: 100px;
+    padding-top: 50px;
+    border-radius: 5px;
+    margin-bottom: 50px;
+}
+
+.container-update {
+    /* border-left: 1px solid #5D6D7E;
+    border-right: 1px solid #5D6D7E; */
+    padding: 40px 10px;
+    border-radius: 5px;
+    margin: 0 auto;
+}
+
+.style-form {
+    background-color: #F8F9FA;
+    border: 1px solid #727272;
+    border-radius: 5px;
+    padding: 20px;
+    text-align: center;
+    color: #000;
+    margin: 0 auto;
+}
+
+.header {
+    text-align: center;
+    color: #000;
+    padding-bottom: 20px;
+}
+
+#main-center > H1 {
+    text-align: center;
+    color: #000;
+}
+
+#main-center > H2 {
+    text-align: center;
+    color: #000;
+}
+
+.btn-admin {
+    margin: 20px;
+}
+
+table {
+    color: #000;
+}
+
+table a {
+    color: #4374ad;
+}
+
+.cell-actions {
+    text-align: center;
+    max-width: 300px;
+}
+
+.cell-compteur {
+    text-align: center;
+}
+
+form {
+    color: #000;
+}
+
+.label-edit > a {
+    text-decoration: none;
+    color: #FFF;
+}
+
+.glyphicon-remove {
+    float: right;
+}
+
+.transition {
+    -webkit-transform: scale(1.05); 
+    -moz-transform: scale(1.05);
+    -o-transform: scale(1.05);
+    transform: scale(1.05);
+}
+
+.btn-success {
+    width:  100%;
+    margin: 5px;
+}
+
+.container-buttons-bottom {
+    text-align: center;
+    margin: 30px 0;
+}
+
+.container-buttons-bottom a{
+    color: #FFF;
+}
+
+/*footer {
+    background-color: #006494;
+     border-left: 1px solid #5D6D7E;
+    border-right: 1px solid #5D6D7E; 
+    text-align: center;
+    color: #FFF;
+    margin-top: 50px; 
+    
+}
+*/
+
+/*footer {
+   position: absolute;
+   bottom: 0;
+   width: 100%;
+   height: 60px;
+   background-color: #006494;
+   text-align: center;
+   color: #FFF;
+   padding-top: 20px;
+}*/
+
+footer {
+    flex-shrink: 0;
+    height: 60px;
+    background-color: #006494;
+    text-align: center;
+    color: #FFF;
+}
+
+.modal-confirmDelete {
+    text-align: center;
+}
+
+
+/*.danger {
+    background-color: red;
+    color: red;
+}*/
+
+
+/* Administration */
+
+#main-admin {
+    background-color: #F2F2F2;
+    margin-top: 100px;
+    padding-top: 50px;
+    border-radius: 5px;
+}
+
+#main-admin > H1 {
+    text-align: center;
+    color: #000;
+}
+
+
+.table-admin > tbody > tr > td > a {
+    font-size: 18px;
+    color: #2E3C4B;
+}
+
+/* .table-admin > tbody > tr > td > a:hover {
+    color: #FFF;
+} */
+
+/* .table-admin > tbody > tr > td {
+    background-color: #ACB2B8;
+    border: 1px solid #2E3C4B;
+} */
+
+.table-admin > thead > tr > th {
+    font-size: 20px;
+    color: #2E3C4B;
+}
+
+#btn-backEvent {
+    float: right;
+    margin: 10px;
+}
+
+#btn-disconnectEvent {
+    float: right;
+    margin: 10px;
+}
+
+.edit-mobile-btn {
+    visibility: hidden;
+}
+
+
+
+
+
+/* Vue mobile */
+
+@media screen and (max-width: 480px) {
+
+.navbar-center
+{
+    width: 100%;
+    text-align: center;
+}
+
+.edit-btn {
+    display: none;
+}
+
+.edit-mobile-btn {
+    visibility: visible;
+}
+
+}
